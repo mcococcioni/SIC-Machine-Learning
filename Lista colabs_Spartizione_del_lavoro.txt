@@ -1,0 +1,86 @@
+0701 - D   -- DONE
+0702 - F   -- DONE
+0703 - D   -- DONE
+0704a - F  -- DONE
+0704b - D  -- DONE
+0705a - D  -- DONE
+0705b - D  -- DONE
+0705c - D  -- DONE
+0705d - D  -- DONE
+0706 - F   -- DONE
+0707 - F   -- DONE
+0708a - F  -- DONE
+0708b - F  -- DONE
+
+0801 - F
+0802 - D
+0803 - F
+0804 - D
+0805 - F
+0806 - D
+0807 - F
+0808 - D
+0809 - F
+
+#Per forzare l'uso della CPU
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = ''
+
+
+
+Indagini messaggio di warning iniziale
+
+
+Modifiche apportate
+
+#Colab 0701:
+
+- Change of the imports adaptation to TF 2.0
+- Remove references to the Session not handled anymore in TF 2.0
+- Resolution of not working operations among tensors using the module linAlg compatible to TF 2.16:
+  sobstitution of function calls in accordance to Api_Docs: https://www.tensorflow.org/api_docs/python/tf/linalg/
+- Remove of global_variables_initializer not used in TF2: variables are initialized immediately when they are created. 
+  here is no longer a need to run variable initializers before using them.
+- Change of the function to random distribution from tf.random_uniform a tf.random.uniform
+- Pandas installation to make work a subexample that is commented: pip install pandas
+  
+
+#Colab 0703:
+- Change of the imports adaptation to TF 2.0
+- Forced the reshape of the training dataset to float32 
+- Remove handling of placeholder
+- Ridefinition of the function to model definition
+- Ridefinition of function loss, adaptation from  tf.nn.softmax_cross_entropy_with_logits_v2 to tf.nn.softmax_cross_entropy_with_logits
+- Change definition and handling of the optimizer, tf.train.GradientDescentOptimizer -> tf.optimizers.SGD
+- Ridefinition of training function step by step, training procedure
+
+
+#Colab 0704b:
+- Change import dataset MNIST, not yet from tensorflow.keras but from keras.datasets
+- Change way to do logs, import separately
+- Adapt loading dataset and handling of training and test set
+- Sobstitution of tf.random_normal to tf.random.normal
+- Change Optimizer into Adam
+
+
+#Colab 0705a:
+-Change of the imports adaptation to TF 2.0
+- Adapted TensorBoard to TF 2.0  using @tf.function and producing 2 distinct tensor graphs.
+
+
+#Colab 0705b: 
+- Change of the imports adaptation to TF 2.0
+- Adjusted unworking commands to execute a scalar summary in the tf log file
+- Give the possibility to run TensorBoard from  Jupyter Notebook
+
+
+#Colab 0705c:
+- Change of the imports adaptation to TF 2.0
+- Removed unsed tf.reset_default_graph() because TF2.0 works in eager mode
+- Ridefinition of a module using @tf.function
+- Calling in the proper way the method for printing the result into TensorBoard log
+
+#Colab 0705d:
+- Change of the imports adaptation to TF 2.0
+- Ridefinition of a module using @tf.function
+- Calling in the proper way the method for printing the result and graph into TensorBoard log
