@@ -17,9 +17,9 @@
 0803 - F
 0804 - D   -- DONE
 0805 - F
-0806 - D
+0806 - D   -- DONE
 0807 - F
-0808 - D
+0808 - D   -- DONE
 0809 - F
 
 #Per forzare l'uso della CPU
@@ -93,4 +93,30 @@ Modifiche apportate
 #Colab 0804
 - Adapted imports from directly keras
 - Fixing working Adam parameter learning rate
+
+#Colab 0806
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0808
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0809
+- Request to install the following packages: 
+  pip install gensim
+  pip install scipy==1.10.1 -- Previous version because the version above give errors
+  pip install beautifulsoup4
+  pip install lxml
+  pip install nltk
+
+- Force downloads of two package inside nltk to not have errors during pre_processing:
+  nltk.download('punkt')
+  nltk.download('stopwords')
+
+- Adapted Word2Vec initialization to the new gensim version >=4.0 parameter vector_size
+- Change the way to return the vocabulary according to new version >=4.0 -> my_model.wv.key_to_index
+
+
+
 
