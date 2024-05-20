@@ -13,9 +13,9 @@
 0708b - F  -- DONE
 
 0801 - F
-0802 - D
+0802 - D   -- DONE
 0803 - F
-0804 - D
+0804 - D   -- DONE
 0805 - F
 0806 - D
 0807 - F
@@ -84,3 +84,13 @@ Modifiche apportate
 - Change of the imports adaptation to TF 2.0
 - Ridefinition of a module using @tf.function
 - Calling in the proper way the method for printing the result and graph into TensorBoard log
+
+
+#Colab 0802
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0804
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
