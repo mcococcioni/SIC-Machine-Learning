@@ -33,6 +33,24 @@ Indagini messaggio di warning iniziale
 
 Modifiche apportate
 
+
+main references:
+
+R1. Sessions are no longer supported as of TF 2.0, as well as placeholder and all sessions' related features. Indeed, TF 2.0 "prefers functions over sessions and integrates better with the Python runtime with Eager execution enabled by default along with tf.function that provides automatic control dependencies for graphs and compilation." (https://www.tensorflow.org/guide/migrate/tf1_vs_tf2)
+
+
+main changes across most notebooks:
+
+(1.) Removed placeholder (R1) and training dataset type modified manually with ".astype('float32')" function.
+(2.) model and loss each put into separated functions (R1).
+(3.) training made into a train_step function decorated with @tf.function (to produce and be executed as a graph, just as the training session was in TF 1.0) nested within a loop over epochs. GradientTape() function used to track and better compute derivates along the generated graph.
+(4.) optimizers functions adapted to TF 2.0 versions: 
+from tf.train.GradientDescentOptimizer to tf.optimizers.SGD
+from tf.train.MomentumOptimizer to tf.optimizers.SGD (momentum version embedded and activated by arguments)
+from tf.train.AdamOptimizer to tf.optimizers.Adam
+
+
+
 #Colab 0701:
 
 - Change of the imports adaptation to TF 2.0
@@ -43,7 +61,13 @@ Modifiche apportate
   here is no longer a need to run variable initializers before using them.
 - Change of the function to random distribution from tf.random_uniform a tf.random.uniform
 - Pandas installation to make work a subexample that is commented: pip install pandas
-  
+
+#Colab 0702:
+- (1.)
+- (2.)
+- (3.)
+- (4.)
+- testing was put into separated function (R1).
 
 #Colab 0703:
 - Change of the imports adaptation to TF 2.0
@@ -54,6 +78,15 @@ Modifiche apportate
 - Change definition and handling of the optimizer, tf.train.GradientDescentOptimizer -> tf.optimizers.SGD
 - Ridefinition of training function step by step, training procedure
 
+#Colab 0704a:
+- Change MNIST dataset import, not from tensorflow.examples but from tensorflow.keras.
+- Due to different import location, training dataset needed to undergo Min-Max-Scalarization, reshape from (60000,28,28,1) to (60000,28*28) and numerical to categorcal labels trasformation. similarly for the test dataset.
+- Changed way to do logs accordingly to tf.logging package new usage
+- (1.)
+- (2.)
+- (3.)
+- (4.)
+- (5.)
 
 #Colab 0704b:
 - Change import dataset MNIST, not yet from tensorflow.keras but from keras.datasets
@@ -85,6 +118,44 @@ Modifiche apportate
 - Ridefinition of a module using @tf.function
 - Calling in the proper way the method for printing the result and graph into TensorBoard log
 
+# Colab 0706:
+- Change MNIST dataset import, not from tensorflow.examples but from tensorflow.keras.
+- Due to different import location, training dataset needed to undergo Min-Max-Scalarization, dimension expansion and numerical to categorcal labels trasformation. similarly for the test dataset.
+- Changed way to do logs accordingly to tf.logging package new usage (imported separatedly)
+- (1.)
+- (2.)
+- (3.)
+- (4.)
+- (5.)
+- various functions adapted to TF 2.0 versions:
+from tf.random_normal to tf.random.normal
+
+# Colab 0707:
+- Change cifar10 dataset import, not from tensorflow.keras.dataset but from keras.dataset.
+- (1.)
+- (2.) 
+- Following TF 2.0 logic, all CNN layers were defined within model function itself. 
+- (3.)
+- (4.)
+- various functions adapted to TF 2.0 versions:
+from tf.random_normal to tf.random.normal
+
+# Colab 0708a:
+- (1.)
+- (2.)
+- Model function (of the autoencoder) required to be splitted into 2 further functions, the encoder and decoder functions, in such a way that the single encoder function could be called separatedly to provide the hidden layer representation of the input object.
+- (3.)
+- During training no further sessions was needed to compute MSE, but a simple return of the loss of the train_step() function.
+
+
+# Colab 0708b:
+- Change MNIST dataset import, not from tensorflow.examples but from tensorflow.keras.
+- Due to different import location, dataset needed to undergo Min-Max-Scalarization and dimension expansion.
+- (1.)
+- Instead of building the model by mean of functions, a class implementing tf.Module was defined. This was made because tf.saved_model.save supports saving tf.Module and its subclasses. Then all weights and baises were defined as instance variables of the Model class, as well as encoder and decoder functions were defined as class functions. Finally, the actual model implementation was defined within __call__() function of the same class. All class functions (except __init__()) were also decorated with @tf.function since only tf.Variable attributes, tf.function-decorated methods, and tf.Modules found via recursive traversal are saved by tf.saved_model.save.
+- (3.)
+- During training no further sessions was needed to compute MSE, but a simple return of the loss of the train_step() function.
+- to save the model, functions compatible to TF 2.0 (tf.saved_model.save and tf.saved_model.load) were used instead of the no more supported ones.
 
 #Colab 0802
 - Adapted imports from directly keras
