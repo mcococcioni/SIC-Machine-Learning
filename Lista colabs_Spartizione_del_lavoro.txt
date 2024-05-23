@@ -157,7 +157,15 @@ from tf.random_normal to tf.random.normal
 - During training no further sessions was needed to compute MSE, but a simple return of the loss of the train_step() function.
 - to save the model, functions compatible to TF 2.0 (tf.saved_model.save and tf.saved_model.load) were used instead of the no more supported ones.
 
+#Colab 0801
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
 #Colab 0802
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0803
 - Adapted imports from directly keras
 - Fixing working Adam parameter learning rate
 
@@ -165,7 +173,19 @@ from tf.random_normal to tf.random.normal
 - Adapted imports from directly keras
 - Fixing working Adam parameter learning rate
 
+#Colab 0805
+- Request to install the following packages: 
+  pip install statsmodels
+
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+- model.__call__() used instead of model.predict() because, in the latest version of keras, the latter is not intended for use inside of loops that iterate over your data and process small numbers of inputs at a time.
+
 #Colab 0806
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0807
 - Adapted imports from directly keras
 - Fixing working Adam parameter learning rate
 
@@ -187,6 +207,10 @@ from tf.random_normal to tf.random.normal
 
 - Adapted Word2Vec initialization to the new gensim version >=4.0 parameter vector_size
 - Change the way to return the vocabulary according to new version >=4.0 -> my_model.wv.key_to_index
+
+
+
+
 
 
 
