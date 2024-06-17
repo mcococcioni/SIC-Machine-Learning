@@ -87,3 +87,5 @@ alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"
 export PATH=$PATH:~/.local/bin
 EOF
 source ~/.bashrc
+
+sudo reboot
