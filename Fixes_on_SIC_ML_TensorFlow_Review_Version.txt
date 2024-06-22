@@ -1,0 +1,354 @@
+#Here a detailed description of the notebooks and the fixes apported on the SIC_ML_Coding_Exercises.
+
+#Colab 0101: Basic introduction to python notebooks
+#Colab 0102: Working with basic datatypes
+#Colab 0103: Working with Lists,Tuple,Dict,Set
+
+# Given a string representing one Unicode character, return an integer representing the Unicode code point of that character
+b = ord(a) # instead of b= int(a) that gave an error
+
+
+#Colab 0104: mutable vs immutable; shallow copy vs deep copy.
+
+#Colab 0105: conditional and loop structure
+
+#Colab 0106: Functions; Lambda functions;Custom modules;
+
+#Colab 0107: Object Oriented Handling of classes
+
+#Colab 0108: Class inheritance
+
+#Colab 0109: Specific function and Binary Search
+
+#Colab 0110: Data structures Queue and Stack basic operations
+#Colab 0111: Interacting with files: OS;Pickle; Shelve
+#Colab 0112: Working with Excel documents
+#Colab 0113: Working with Word documents
+#Colab 0114: Working with PDF documents
+
+DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+update: use PdfReader() instead of PdfFileReader()
+DeprecationError: reader.numPages is deprecated and was removed in PyPDF2 3.0.0. Use len(reader.pages) instead.
+update: use ‘len(my_reader.pages)’ instead of ‘my_reader.numPages’
+DeprecationError: reader.getPage(pageNumber) is deprecated and was removed in PyPDF2 3.0.0. Use reader.pages[page_number] instead.
+update: use my_reader.pages[10] instead of my_reader.getPage(10)
+
+use print(my_page.extract_text()) instead of print(my_page.extractText())
+
+#Colab 0201: Introduction to NumPy
+#Colab 0202: NumPy array operations
+#Colab 0203: Linear algebra with NumPy arrays
+#Colab 0204: Introduction to Pandas: Series data object and operations
+#Colab 0205: Pandas DataFrame basics
+#Colab 0206: Pandas-NumPy dataframe transformations
+#Colab 0207: Statistics with Pandas and Numpy
+
+add ‘numeric_only=True’ parameter to df.mean to avoid error on string column.
+-> df.mean(axis=0, numeric_only=True)
+
+add ‘numeric_only=True’ parameter to the following as well:
+df.corr(numeric_only=True)
+df.corrwith(df.loc[:,'Petal.Length'], numeric_only=True)
+df[df.Species=='setosa'].mean(axis=0, numeric_only=True)
+df[df.Species=='virginica'].mean(axis=0, numeric_only=True)
+df[df.Species=='versicolor'].mean(axis=0, numeric_only=True)
+
+#Colab 0208: MultiIndex in Pandas
+
+add ‘numeric_only=True’ parameter to the following as before:
+df2 = df.groupby('gender').mean(numeric_only=True)
+df.groupby('gender').mean(numeric_only=True).columns
+
+
+
+#Colab 0209: Basic Matplotlib visualization
+
+fixed linestyles parameters of plt.plot() (it was deprecated and therefore substituted with a supported one “dashed”)
+
+#Colab 0210: Matplotlib visualization with objects
+#Colab 0211: Visualization with Pandas
+#Colab 0212: Visualization with Pandas: Bar plot; Histogram; Scatter plot
+#Colab 0213: Visualization with Seaborn
+
+sns.lmplot() function wrong argument “size” updated: changed with “height”
+
+
+#Colab 0214: Visualization with Seaborn: Scatter plot; PairGrid; FacetGrid;Heat map
+
+add ‘numeric_only=True’ parameter to the following as before:
+dat.corr(numeric_only=True)
+
+
+#Colab 0301: Introduction of Discrete Probability Distribution: Bernoulli; Binomial; Geometric; Poisson
+#Colab 0302: Continuous Probability Density: Uniform; Normal; Chi Square
+#Colab 0303: Descriptive statistics: Sample statistics; Boxplot; Covariance and Correlation;
+#Colab 0304: Introduction to Quantile Statistics operations
+#Colab 0305: Interval Estimations of the Mean
+#Colab 0306: Interval Estimation of the Proportion
+#Colab 0307: Hypothesis Test of the Means
+
+add alternative=’two-sided’ attribute to methods st.pearsonr before was not specified any value
+add ‘numeric_only=True’ parameter to the following as before:
+df.corr(numeric_only=True)
+
+#Colab 0308: Hypothesis Test of the Means
+#Colab 0309: Summarizing categorical variables
+#Colab 0310: Chi-squared Tests
+#Colab 0311: Chi-squared test of variance
+#Colab 0312: F test of variance ratio
+
+#Colab 0401: K-Means clustering with simulated data
+#Colab 0402: K-Means clustering with real data
+#Colab 0403: Compare clustering algorithms
+#Colab 0404: Dimensional reduction with PCA
+#Colab 0405: Linear regression with 'Galton' data
+#Colab 0406: Linear regression and diagnostics 
+
+Use of the California housing dataset instead of boston dataset because it has been removed from scikit-learn since version 1.2 due to ethical problem.
+The former one can be load as follows:
+from sklearn.datasets import fetch_california_housing
+data = fetch_california_housing()
+
+Selecting a different attribute name MedInc due to the forced change of the input dataset, to make it run as previously.
+Change of the variable used to compute MSE: it was used an unset variable
+Change of dimension of new input data to test predict capability of the model
+
+
+#Colab 0407: Linear regression diagnostics and modeling using StatsModels library 
+Same problem as #Colab 0406
+
+#Colab 0408: Linear regression prediction and confidence interval
+#Colab 0409: Dummy variable and interaction: Linear regression
+#Colab 0410: Regularized regressions
+
+
+#Colab 0501: Classification with logistic regression
+
+adding arguments names for sns.barplot() function. It becomes: 
+sns.barplot(x=label,y=table.values)
+
+#Colab 0502: Classification with Naive Bayes
+substituting the class instance variable GaussianNB.sigma_ with GaussianNB.var_ 
+
+#Colab 0503: Classification with KNN
+adding arguments names for sns.countplot() function. It becomes: 
+sns.countplot(data=df,x='Survived')
+
+
+#Colab 0504: Classification with SVM
+#Colab 0505: Classification with Tree
+#Colab 0506: Compare the Tree-like algorithms
+#Colab 0507: Voting Ensemble
+#Colab 0508: Bagging ensemble
+
+#Colab 0601: String function and Regular Expression
+#Colab 0602: Advanced Regular Expression
+#Colab 0603: Advanced Regular Expression for Groups
+#Colab 0604: Data acquisition from a webpage
+#Colab 0605: Fetch tweets
+Due to the impossibility of retrieving information we do not consider this Notebook.
+#Colab 0606: Introduction to NLTK library
+#Colab 0607: Advanced usage to NLTK library
+#Colab 0608:Visualize the text data as a WordCloud
+#Colab 0609: n-Gram Prediction word
+Change method name from .get_feature_names(), which is deprecated, to .get_feature_names_out()
+
+
+
+#Colab 0610: Information Retrieval: TF IDF
+Same problem as #Colab 0609
+
+#Colab 0611: NLP classification analysis
+
+#Colab 0612: Latent Semantic Analysis (LSA)
+Same problem as #Colab 0609
+
+#Colab 0613: Latent Dirichlet Allocation (LDA):
+Change of string stopwords ‘english’ put as fixed value
+
+The following notebooks were present as .py file, we adapted to Notebook version.
+
+#Colab 0614: Introduction to CV2 (Computer Vision 2) Library black and white
+#Colab 0615: An other CV2 example, color images
+#Colab 0616: Convolutional filtering
+#Colab 0617: Morphological filtering, gray scale
+#Colab 0618: Transforming image data
+#Colab 0619: Binary thresholding and Adaptive thresholding
+
+
+___________________________________________________________________
+Next Tensorflow notebook has many common modifications.
+
+main references:
+
+R1. Sessions are no longer supported as of TF 2.0, as well as placeholder and all sessions' related features. Indeed, TF 2.0 "prefers functions over sessions and integrates better with the Python runtime with Eager execution enabled by default along with tf.function that provides automatic control dependencies for graphs and compilation." (https://www.tensorflow.org/guide/migrate/tf1_vs_tf2)
+
+
+main changes across most notebooks:
+
+(1.) Removed placeholder (R1) and training dataset type modified manually with ".astype('float32')" function.
+(2.) model and loss each put into separated functions (R1).
+(3.) training made into a train_step function decorated with @tf.function (to produce and be executed as a graph, just as the training session was in TF 1.0) nested within a loop over epochs. GradientTape() function used to track and better compute derivatives along the generated graph.
+(4.) optimizers functions adapted to TF 2.0 versions: 
+from tf.train.GradientDescentOptimizer to tf.optimizers.SGD
+from tf.train.MomentumOptimizer to tf.optimizers.SGD (momentum version embedded and activated by arguments)
+from tf.train.AdamOptimizer to tf.optimizers.Adam
+(5.) various functions adapted to TF 2.0 versions:
+from tf.random_normal to tf.random.normal
+
+#Colab 0701:
+
+- Change of the imports adaptation to TF 2.0
+- Remove references to the Session not handled anymore in TF 2.0
+- Resolution of not working operations among tensors using the module linAlg compatible to TF 2.16:
+  sobstitution of function calls in accordance to Api_Docs: https://www.tensorflow.org/api_docs/python/tf/linalg/
+- Remove of global_variables_initializer not used in TF2: variables are initialized immediately when they are created. 
+  here is no longer a need to run variable initializers before using them.
+- Change of the function to random distribution from tf.random_uniform a tf.random.uniform
+- Pandas installation to make work a subexample that is commented: pip install pandas
+
+#Colab 0702:
+- (1.)
+- (2.)
+- (3.)
+- (4.)
+- testing was put into separated function (R1).
+
+#Colab 0703 - new:
+- Change of the imports adaptation to TF 2.0
+- (1.)
+- (2.)
+- (3.)
+- (4.)
+- Ridefinition of function loss, adaptation from  tf.nn.softmax_cross_entropy_with_logits_v2 to tf.nn.softmax_cross_entropy_with_logits
+
+#Colab 0704a:
+- Change MNIST dataset import, not from tensorflow.examples but from tensorflow.keras.
+- Due to different import location, training dataset needed to undergo Min-Max-Scalarization, reshape from (60000,28,28,1) to (60000,28*28) and numerical to categorcal labels trasformation. similarly for the test dataset.
+- Changed way to do logs accordingly to tf.logging package new usage
+- (1.)
+- (2.)
+- (3.)
+- (4.)
+- (5.)
+
+#Colab 0704b:
+- Change MNIST dataset import, not from tensorflow.keras but from keras.datasets
+- Changed way to do logs accordingly to tf.logging package new usage
+- Due to different import location, training dataset needed to undergo Min-Max-Scalarization, reshape from (60000,28,28,1) to (60000,28*28) and numerical to categorcal labels trasformation. similarly for the test dataset.
+- (1.)
+- (2.)
+- (3.)
+- (4.)
+- (5.)
+
+
+#Colab 0705a:
+-Change of the imports adaptation to TF 2.0
+- Adapted TensorBoard to TF 2.0  using @tf.function and producing 2 distinct tensor graphs.
+
+
+#Colab 0705b: 
+- Change of the imports adaptation to TF 2.0
+- Adjusted unworking commands to execute a scalar summary in the tf log file
+- Give the possibility to run TensorBoard from  Jupyter Notebook
+
+
+#Colab 0705c:
+- Change of the imports adaptation to TF 2.0
+- Removed unsed tf.reset_default_graph() because TF2.0 works in eager mode
+- Ridefinition of a module using @tf.function
+- Calling in the proper way the method for printing the result into TensorBoard log
+
+#Colab 0705d:
+- Change of the imports adaptation to TF 2.0
+- Ridefinition of a module using @tf.function
+- Calling in the proper way the method for printing the result and graph into TensorBoard log
+
+# Colab 0706:
+- Change MNIST dataset import, not from tensorflow.examples but from tensorflow.keras.
+- Due to different import location, training dataset needed to undergo Min-Max-Scalarization, dimension expansion and numerical to categorcal labels trasformation. similarly for the test dataset.
+- Changed way to do logs accordingly to tf.logging package new usage (imported separatedly)
+- (1.)
+- (2.)
+- (3.)
+- (4.)
+- (5.)
+
+# Colab 0707:
+- Change cifar10 dataset import, not from tensorflow.keras.dataset but from keras.dataset.
+- (1.)
+- (2.) 
+- Following TF 2.0 logic, all CNN layers were defined within model function itself. 
+- (3.)
+- (4.)
+- various functions adapted to TF 2.0 versions:
+from tf.random_normal to tf.random.normal
+
+# Colab 0708a:
+- (1.)
+- (2.)
+- Model function (of the autoencoder) required to be splitted into 2 further functions, the encoder and decoder functions, in such a way that the single encoder function could be called separatedly to provide the hidden layer representation of the input object.
+- (3.)
+- During training no further sessions was needed to compute MSE, but a simple return of the loss of the train_step() function.
+
+
+# Colab 0708b:
+- Change MNIST dataset import, not from tensorflow.examples but from tensorflow.keras.
+- Due to different import location, dataset needed to undergo Min-Max-Scalarization and dimension expansion.
+- (1.)
+- Instead of building the model by mean of functions, a class implementing tf.Module was defined. This was made because tf.saved_model.save supports saving tf.Module and its subclasses. Then all weights and baises were defined as instance variables of the Model class, as well as encoder and decoder functions were defined as class functions. Finally, the actual model implementation was defined within __call__() function of the same class. All class functions (except __init__()) were also decorated with @tf.function since only tf.Variable attributes, tf.function-decorated methods, and tf.Modules found via recursive traversal are saved by tf.saved_model.save.
+- (3.)
+- During training no further sessions was needed to compute MSE, but a simple return of the loss of the train_step() function.
+- to save the model, functions compatible to TF 2.0 (tf.saved_model.save and tf.saved_model.load) were used instead of the no more supported ones.
+
+#Colab 0801
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0802
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0803
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0804
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0805
+- Request to install the following packages: 
+  pip install statsmodels
+
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+- model.__call__() used instead of model.predict() because, in the latest version of keras, the latter is not intended for use inside of loops that iterate over your data and process small numbers of inputs at a time.
+
+#Colab 0806
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0807
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0808
+- Adapted imports from directly keras
+- Fixing working Adam parameter learning rate
+
+#Colab 0809
+- Request to install the following packages: 
+  pip install gensim
+  pip install scipy==1.10.1 -- Previous version because the version above give errors
+  pip install beautifulsoup4
+  pip install lxml
+  pip install nltk
+
+- Force downloads of two package inside nltk to not have errors during pre_processing:
+  nltk.download('punkt')
+  nltk.download('stopwords')
+
+- Adapted Word2Vec initialization to the new gensim version >=4.0 parameter vector_size
+- Change the way to return the vocabulary according to new version >=4.0 -> my_model.wv.key_to_index
