@@ -23,11 +23,11 @@ try {
 	Copy-Item -Path "${source}" -Destination "${destination}" -Force
 	ECHO "Configuration files instantiated successfully"
 
-	wsl --update
-	wsl --set-default-version 2
-	wsl --install -d Ubuntu-22.04
-
 }
 catch {
 	ECHO $_.Exception.Message
 }
+
+wsl --update
+wsl --set-default-version 2
+wsl --install -d Ubuntu-22.04
