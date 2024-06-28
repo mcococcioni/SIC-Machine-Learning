@@ -113,30 +113,32 @@ UNIPI version from Fabio Malloggi and Davide Vigna (https://github.com/FabioMall
 * [ex_0613.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_07_Coding_Exercises/ex_0613.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_07_Coding_Exercises/ex_0613.ipynb)
 
 ### Chapter 7. Deep Learning - Part I
-* [ex_0701.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0701.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0701.ipynb)
-* [ex_0702.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0702.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0702.ipynb)
-* [ex_0703.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0703.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0703.ipynb)
-* [ex_0704a.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0704a.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0704a.ipynb)
-* [ex_0704b.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0704b.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0704b.ipynb)
-* [ex_0705a.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0705a.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0705a.ipynb)
-* [ex_0705b.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0705b.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0705b.ipynb)
-* [ex_0705c.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0705c.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0705c.ipynb)
-* [ex_0705d.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0705d.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0705d.ipynb)
-* [ex_0706.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0706.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0706.ipynb)
-* [ex_0707.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0707.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0707.ipynb)
-* [ex_0708a.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0708a.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0708a.ipynb)
-* [ex_0708b.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0708b.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_08_Coding_Exercises/ex_0708b.ipynb)
+* [ex_0701_TF_basic.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0701_TF_basic.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0701_TF_basic.ipynb)
+* [ex_0702_TF_Linear_Regression.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0702_TF_Linear_Regression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0702_TF_Linear_Regression.ipynb)
+* [ex_0703_TF_Softmax_Regression.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0703_TF_Softmax_Regression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0703_TF_Softmax_Regression.ipynb)
+* [ex_0704a_TF_Softmax_Regression_handswritten_digits.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0704a_TF_Softmax_Regression_handswritten_digits.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0704a_TF_Softmax_Regression_handswritten_digits.ipynb)
+* [ex_0704b_MLP.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0704b_MLP.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0704b_MLP.ipynb)
+* [ex_0705a_TensorBoard_1.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0705a_TensorBoard_1.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0705a_TensorBoard_1.ipynb)
+* [ex_0705b_TensorBoard_2.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0705b_TensorBoard_2.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0705b_TensorBoard_2.ipynb)
+* [ex_0705c_TensorBoard_3.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0705c_TensorBoard_3.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0705c_TensorBoard_3.ipynb)
+* [ex_0705d_TensorBoard_4.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0705d_TensorBoard_4.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0705d_TensorBoard_4.ipynb)
+* [ex_0706_CNN_grayscale.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0706_CNN_grayscale.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0706_CNN_grayscale.ipynb)
+* [ex_0707_CNN_color.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0707_CNN_color.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0707_CNN_color.ipynb)
+* [ex_0708a_PCA.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0708a_PCA.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0708a_PCA.ipynb)
+* [ex_0708b_AutoEncoder.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0708b_AutoEncoder.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_07_Coding_Exercises/ex_0708b_AutoEncoder.ipynb)
 
 ### Chapter 8. Deep Learning - Part II
-* [ex_0801.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0801.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0801.ipynb)
-* [ex_0802.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0802.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0802.ipynb)
-* [ex_0803.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0803.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0803.ipynb)
-* [ex_0804.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0804.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0804.ipynb)
-* [ex_0805.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0805.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0805.ipynb)
-* [ex_0806.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0806.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0806.ipynb)
-* [ex_0807.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0807.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0807.ipynb)
-* [ex_0808.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0808.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0808.ipynb)
-* [ex_0809.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0809.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Coding_Exercises/SIC_ML_Chapter_09_Coding_Exercises/ex_0809.ipynb)
+* [ex_0801_Shallow_NN_grayscale.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0801_Shallow_NN_grayscale.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0801_Shallow_NN_grayscale.ipynb)
+* [ex_0802_Shallow_NN_color.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0802_Shallow_NN_color.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0802_Shallow_NN_color.ipynb)
+* [ex_0803_CNN_grayscale.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0803_CNN_grayscale.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0803_CNN_grayscale.ipynb)
+* [ex_0804_CNN_color.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0804_CNN_color.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0804_CNN_color.ipynb)
+* [ex_0805_RNN_basic.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0805_RNN_basic.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0805_RNN_basic.ipynb)
+* [ex_0806_RNN_LSTM.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0806_RNN_LSTM.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0806_RNN_LSTM.ipynb)
+* [ex_0807_Doc_Classification_basic.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0807_Doc_Classification_basic.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0807_Doc_Classification_basic.ipynb)
+* [ex_0808_Doc_Classification_complex.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0808_Doc_Classification_complex.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0808_Doc_Classification_complex.ipynb)
+* [ex_0809_Gensim_Word2Vec.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0809_Gensim_Word2Vec.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0809_Gensim_Word2Vec.ipynb)
+
+
 
 ## Quizzes (this version is the same of original course)
 
@@ -179,3 +181,51 @@ UNIPI version from Fabio Malloggi and Davide Vigna (https://github.com/FabioMall
 
 ### Chapter 9
 * [problem_0801.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Quizzes/SIC_ML_Chapter_09_Quiz/problem_0801.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Quizzes/SIC_ML_Chapter_09_Quiz/problem_0801.ipynb) [sol_0801.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Quizzes/SIC_ML_Chapter_09_Quiz/sol_0801.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Quizzes/SIC_ML_Chapter_09_Quiz/sol_0801.ipynb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
