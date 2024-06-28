@@ -150,8 +150,7 @@ UNIPI version from Fabio Malloggi and Davide Vigna (https://github.com/FabioMall
 * [ex_0809_Gensim_Word2Vec.ipynb](https://github.com/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0809_Gensim_Word2Vec.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabioMalloggi/SIC-Machine-Learning/blob/main/SIC_ML_TensorFlow_Review_Version/SIC_ML_Chapter_08_Coding_Exercises/ex_0809_Gensim_Word2Vec.ipynb)
 
 
-
-## Quizzes (this version is the same of original course)
+## Quizzes (not updated - same as original course)
 
 ### Chapter 2
 * [problem_0101.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Quizzes/SIC_ML_Chapter_02_Quiz/problem_0101.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Quizzes/SIC_ML_Chapter_02_Quiz/problem_0101.ipynb) [sol_0101.ipynb](https://github.com/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Quizzes/SIC_ML_Chapter_02_Quiz/sol_0101.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tn-220/SIC-Machine-Learning/blob/main/SIC_ML_Quizzes/SIC_ML_Chapter_02_Quiz/sol_0101.ipynb)
