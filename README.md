@@ -1,4 +1,4 @@
-# SIC Artificial Intelligence
+# SIC Deep Learning
 
 ## Contents
 
